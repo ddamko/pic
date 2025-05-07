@@ -41,6 +41,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/pic/",
             "outputPath": "dist/pic",
             "index": "src/index.html",
             "browser": "src/main.ts",
